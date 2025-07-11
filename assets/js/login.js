@@ -10,6 +10,7 @@ var Login = {
     );
   },
 
+
   create: function () {
     game.add.sprite(0, 0, "homescreen");
     this.add.button(300, 450, "metamasklogin", this.web3login, this);
